@@ -13,15 +13,15 @@ I used a .txt file of Hamlet by copying and pasting a entire play from the follo
 
 ## Scala Commands
 ```
-Scala> val inputFile = sc.textFile("C:/44564/RanaSparkWordCount/HAMLET.txt")
-Scala> val topWordCount = inputFile.
+scala> val inputFile = sc.textFile("C:/44564/RanaSparkWordCount/HAMLET.txt")
+scala> val topWordCount = inputFile.
   flatMap(str=>str.split(" ")).
   filter(!_.isEmpty).
   map(word=>(word,1)).
   reduceByKey(_+_).
   map{case (word, count) => (count, word)}.
   sortByKey(false)
-Scala> topWordCount.take(10).foreach(x=>println(x))
+scala> topWordCount.take(10).foreach(x=>println(x))
 ```
 
 ## Results
