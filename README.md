@@ -43,6 +43,7 @@ The 10 results that I got from the commands are as follows:
 The result showed that the most frequently used word is 'the' and it has been used 988 times.
 
 I have represented this data into the visuals using the chart representation.
-![Word Count Chart]( "Word Count Chart")
+![Word Count Chart](![chart](https://user-images.githubusercontent.com/33071134/48314465-876dbc80-e58f-11e8-892d-efb5ca29f169.png)
+ "Word Count Chart")
 
 
